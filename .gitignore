@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Raw/private market data
+data/raw/
+data/private/
+
+# Model files
+models/checkpoints/
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Backtest outputs
+backtesting/results/
+
+# Execution logs
+execution/logs/
